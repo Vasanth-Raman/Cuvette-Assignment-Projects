@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+}
+
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+
+/* to add inter font */
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* to apply color for upper part */
+main{
+    height: 70vh;
+    width: auto;
+    background-color: #FFCD9E;
+}
+
+/* to apply color for lower part */
+footer{
+    height: 30vh;
+    width: auto;
+    background-color: #282828;
+}
+
+/* to align in single part */
+#container{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* firt part of the upper part */
+#content{
+    height: inherit;
+    width: auto;
+    margin-top: 4rem;
+    margin-left: 6rem;
+}
+
+h1{
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+#para1{
+    margin-top: 1.5rem;
+    font-weight: 400;
+    color: #484848;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+}
+
+h3{
+    color: black;
+    font-weight: 700;
+    margin-top: 1.8rem;
+    font-size: 1.2rem;
+}
+
+form{
+    margin-top: 2rem;
+}
+
+#mail{
+    width: 19rem;
+    border: 4px solid #000000;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    border-radius: 8px;
+    padding: 0.8rem;
+}
+
+::placeholder{
+    color: #888888;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: left;
+}
+
+#btn{
+    padding: 0.8rem;
+    border: 2px solid #000000;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    width: 10rem;
+    font-size: 1.1rem;
+    margin-left: 1rem;
+}
+
+#btn:hover{
+    cursor: pointer;
+}
+
+#para2{
+    color: #FFFFFF;
+    font-weight: 500;
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+    font-size: .9rem;
+}
+
+/* now lets focus on image part */
+/* second part of the upper part */
+
+img{
+    position: relative;
+   right: 3rem;
+   bottom: 1rem;
+
+}
+
+/* -------------------------------------------------------------------------------------------------------------------- */
+/* Footer Part */
+
+/* to seperate two parts, left and right */
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* style list items */
+ul{
+    color: #FFFFFF;
+    list-style-type: none;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+/* to leave spacing between list items */
+
+ul li{
+    margin-bottom: 0.7rem;
+}
+
+/* to align text in the right side part to right */
+
+#footer-right li{
+    text-align: right;
+}
+
+/* align linkdin & insta icons */
+
+#footer-right img{
+    position: relative;
+    top: .2rem;
+    right: 0rem;
+}
+
+/* margins for two parts so that it can be aligned properly */
+#footer-left{
+   margin-left: -10rem;
+}
+
+#footer-right{
+    margin-right: -10rem;
+}
+
+
+
+
+
+
+
